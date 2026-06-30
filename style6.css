@@ -81,6 +81,19 @@ p {
 .card p {
     color: black;
 }
+.bottone-contatto {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.bottone-contatto:hover {
+    background-color: darkred;
+}
 
 footer {
     text-align: center;
