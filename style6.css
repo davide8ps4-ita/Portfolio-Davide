@@ -1,0 +1,88 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#intestazione {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: darkred;
+}
+
+.contenitore {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.scheda {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    color: black;
+}
+
+.testo-importante {
+    color: darkred;
+    font-weight: bold;
+}
+
+#frase-speciale {
+    background-color: yellowgreen;
+    padding: 20px;
+    border: 1px dashed red;
+    margin: 20px;
+}
+
+.contenitore-card {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: lightblue;
+    padding: 15px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.card h3 {
+    color: darkblue;
+}
+
+.card p {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
