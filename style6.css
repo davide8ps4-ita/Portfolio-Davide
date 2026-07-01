@@ -81,6 +81,25 @@ p {
 .card p {
     color: black;
 }
+.info-contatti {
+    display : flex;
+    gap:20px;
+    margin-bottom: 20px;
+}
+.card-contatto{
+    background-color: lightblue;
+    padding:15px;
+    border : 1px solid darkblue;
+    border-radius:8px;
+    width: 50%;
+}
+.card-contatto h3{
+    color:darkblue;
+}
+.card-contatto a {
+    color:darkred;
+    font-weight: bold;
+}
 
 .form-contatti {
     display : flex;
