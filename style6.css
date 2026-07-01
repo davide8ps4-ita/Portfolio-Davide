@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: aquamarine;
     font-family: Arial, sans-serif;
@@ -27,6 +30,7 @@ body {
 .navbar a:hover {
     color: darkred;
 }
+
 
 .contenitore {
     width: 80%;
